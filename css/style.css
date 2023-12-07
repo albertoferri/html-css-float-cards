@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* body */
+
+body{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+/* fine body */
+
+
+/* header */
+
+h1{
+    color: #e53170;
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+
+/* fine header */
