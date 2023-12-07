@@ -8,7 +8,6 @@
 
 body{
     font-family: 'Nunito', sans-serif;
-    text-align: center;
 }
 
 /* fine body */
@@ -18,8 +17,74 @@ body{
 
 h1{
     color: #e53170;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     font-weight: 900;
 }
 
 /* fine header */
+
+/* main */
+
+/* div */
+
+div{
+    margin: 0;
+}
+
+/* fine div */
+
+
+section{
+    display: inline-block;
+}
+
+/* section:nth-child(2){
+    width: calc(100% / 3);
+} */
+
+p:first-child{
+    padding-bottom: 30px;
+}
+
+
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.profile{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 420px;
+}
+
+img{
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+
+ul{
+    text-decoration: none;
+}
+
+.profile ul{
+    display: inline-block;
+}
+
+div h2,.email{
+    display: inline-block;
+}
+
+.email{
+    color: #12c0f3;
+}
+
+
+
+
+/* fine main */
